@@ -1,0 +1,11 @@
+[20-May-2021 01:13:24 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function twentytwentyone_the_html_classes() in /home/limiar/public_html/medusa/wp-content/themes/twentytwentyone/header.php:16
+Stack trace:
+#0 /home/limiar/public_html/medusa/wp-includes/template.php(730): require_once()
+#1 /home/limiar/public_html/medusa/wp-includes/template.php(676): load_template('/home/limiar/pu...', true, Array)
+#2 /home/limiar/public_html/medusa/wp-includes/general-template.php(48): locate_template(Array, true, true, Array)
+#3 /home/limiar/public_html/medusa/wp-content/themes/twentytwentyone/index.php(17): get_header()
+#4 /home/limiar/public_html/medusa/wp-includes/template-loader.php(106): include('/home/limiar/pu...')
+#5 /home/limiar/public_html/medusa/wp-blog-header.php(19): require_once('/home/limiar/pu...')
+#6 /home/limiar/public_html/medusa/index.php(17): require('/home/limiar/pu...')
+#7 {main}
+  thrown in /home/limiar/public_html/medusa/wp-content/themes/twentytwentyone/header.php on line 16

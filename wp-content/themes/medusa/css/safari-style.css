@@ -1,0 +1,29 @@
+
+@media screen and (max-width:720px) {
+	.mt-50 {
+		margin-top: 42px;
+	}
+	.logo img {
+	    margin-top: -65px;
+	    height: auto;
+	    width: 70px;
+	}
+	.div-logo {
+    	right: 20px;
+	}
+	.div-navtop {
+		padding: 0px 0px
+	}
+	.navtop a {
+    	font-size: 10px !important;
+	}
+	ul.navtop-icon.d-flex {
+    	display: none !important;
+	}
+	.hr-navtop {
+		display: none !important;
+	}
+	ul.main-menu.nav.navbar-nav.pull-right {
+		float: left !important;
+	}
+}
